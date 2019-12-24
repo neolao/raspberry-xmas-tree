@@ -5,7 +5,7 @@ Install
 -------
 ```bash
 sudo apt-get install python-pip python-gpiozero python3-gpiozero
-pip install statistics
+sudo pip install statistics
 ```
 
 Run at startup
