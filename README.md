@@ -15,5 +15,5 @@ sudo vim /etc/rc.local
 ```
 
 ```
-python /home/pi/raspberry-xmas-tree/01.py &
+python /home/pi/raspberry-xmas-tree/03-random.py &
 ```
