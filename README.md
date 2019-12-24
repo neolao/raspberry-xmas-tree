@@ -11,9 +11,6 @@ pip install statistics
 Run at startup
 --------------
 ```bash
-sudo vim /etc/rc.local
-```
-
-```
-python /home/pi/raspberry-xmas-tree/03-random.py &
+systemctl enable xmas-tree.service
+systemctl start xmas-tree.service
 ```
