@@ -7,6 +7,6 @@ tree.color = Color('red')
 
 try:
     while True:
-        tree.color += Hue(deg=1)
+        tree.color += Hue(deg=5)
 except KeyboardInterrupt:
     tree.close()
