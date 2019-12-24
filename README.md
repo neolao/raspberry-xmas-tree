@@ -11,6 +11,7 @@ pip install statistics
 Run at startup
 --------------
 ```bash
-systemctl enable xmas-tree.service
-systemctl start xmas-tree.service
+sudo ln -s $(pwd)/xmas-tree.service /etc/systemd/system/xmas-tree.service
+sudo systemctl enable xmas-tree.service
+sudo systemctl start xmas-tree.service
 ```
